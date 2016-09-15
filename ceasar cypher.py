@@ -1,11 +1,10 @@
+#I made a change here
 code=[]
 sent=input("Enter a sentence")
 num=input("enter a number")
 #force all letters to lowercase
 sent=sent.lower()
 for i in range(len(sent)):
-	#print(sent[i])
-	#print (ord(sent[i]))
 #getting rid of space
 	if sent[i]!=" ":
 		letternum=ord(sent[i])+int(num)
